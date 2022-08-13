@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px
+}
+
+.header-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 55px;
+}
+
+.top{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #1F2937;
+
+}
+
+.header-links{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#head-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 147, 147)
+}
+
+.body{
+    background-color: #1F2937;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+
+.chicken{
+    width: 300px;
+    padding: 20px;
+}
+
+.intro-text{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.sub-text{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(172, 171, 171);
+}
+
+.button{
+    background-color: aqua;
+    width: 100px;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+/*this the third section and one with images*/
+
+.body-2 {
+  font-family: 'Arial', Courier, monospace;
+  text-align: center;
+}
+
+.pic {
+  width: 100px;
+  height: 100px;
+}
+
+.title2 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 32px;
+  padding-top: 30px;
+}
+
+.container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 70px;
+  }
+
+  .info {
+    max-width: 200px;
+  }
+
+  .body-3{
+    background-color: rgb(190, 190, 190);
+  }
+
+  .quote{
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  .Author{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
